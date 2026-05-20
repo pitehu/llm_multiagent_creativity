@@ -29,6 +29,14 @@ The notebooks read from `data/` and create an `outputs/` folder for generated fi
 
 The `generation/` and `preprocessing/` folders are included for provenance. They are not required to reproduce the paper figures and tables from the included compact CSV files.
 
+## System Requirements
+
+The analysis notebooks have been tested on Linux (Linux 5.15, x86_64) with Python 3.10.6. They should also run on recent macOS or Linux systems with Python 3.10 or 3.11 and the dependencies listed in `requirements.txt`.
+
+No non-standard hardware is required to reproduce the manuscript analyses from the included CSV files. Regenerating embeddings from raw text may benefit from GPU acceleration, but the release includes pre-computed trajectory metrics so this is not required for the main reproduction workflow.
+
+The LLM generation code in `generation/` requires access to hosted model APIs and valid provider credentials. It is included to document and rerun the generation workflow, not as a requirement for reproducing the quantitative figures and tables from the released analysis data.
+
 ## Setup
 
 ```bash
