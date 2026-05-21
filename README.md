@@ -161,3 +161,7 @@ Because hosted model APIs can change, rerunning generation documents the workflo
 The notebooks reproduce the quantitative manuscript figures and tables from the released CSV files. The task-prompt and experimental-condition tables are static design tables in the manuscript. Transcript excerpt tables and turn-level example visualizations require raw conversation histories or turn-level embeddings rather than the compact analysis CSVs.
 
 The original generation and preprocessing code uses the historical label `creative` for a discussion method that is called `progressive` in the manuscript and final edited figure labels. These refer to the same condition.
+
+## License
+
+CC BY-NC-SA 4.0
